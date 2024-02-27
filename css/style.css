@@ -1,0 +1,801 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+  /* CSS untuk Carousel */
+  #carouselExampleIndicators {
+    height: 100vh; /* Mengatur tinggi carousel sesuai dengan tinggi viewport */
+}
+
+/* CSS untuk gambar dalam Carousel */
+.carousel-item img {
+    object-fit: cover; /* Memastikan gambar menutupi seluruh area carousel */
+    height: 100vh; /* Mengatur tinggi gambar sesuai dengan tinggi viewport */
+    width: 100%; /* Menyesuaikan lebar gambar dengan lebar carousel */
+}
+
+/* Aksen gelap di gambar carousel nya */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Warna gelap dengan transparansi */
+}
+
+/* BANNER */
+#banner {
+    position: relative;
+    color: black;
+    padding-top: 5%;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.title {
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+.ban-img {
+    position: relative;
+    z-index: 1000;
+    width: 400px;
+    height: auto;
+    margin-left: 25%;
+    border: 2px solid #ffffff;
+    /* box-shadow: 0 0 30px 2px #ffffff; */
+}
+
+
+
+
+/* ABOUT */
+#about {
+    position: relative;
+    color: white;
+    padding-top: 5%;
+    background-color: #FFFFFF;
+    color: #ffffff;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+
+.about-img {
+    /* display: inline-block;
+    margin: 0 auto; */
+    position: relative;
+    z-index: 1000;
+    width: 160px;
+    height: auto;
+    margin-left: 75%;
+    border: 2px solid #000000;
+    /* box-shadow: 0 0 30px 2px #ffffff; */
+}
+
+.about-title {
+    margin-bottom: 5%;
+}
+
+.about-name{
+    text-align: justify;
+    margin-left: 15%;
+    
+}
+
+.about1 p {
+    text-align: justify;
+    margin-left: 15%;
+}
+
+
+/* CSS Bar Skill */
+.bar-skill {
+    padding-bottom: 3%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .progress-bar-container {
+    margin-bottom: 70px; /* Menambahkan margin antar progress bar */
+    height: 10px;
+  }
+
+  .progress-bar.bg-black {
+    background-color: black;
+    height: 10px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-column {
+    flex-basis: 48%; /* Lebar masing-masing kolom sekitar 48% dari container */
+  }
+
+
+/* Education */
+.education1 {
+    position: relative;
+    color: black;
+    padding-top: 1px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.title-edu {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5%;
+    padding-bottom: 1%
+}
+  
+/* .row-edu {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.border-edu {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 2.5%;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.topi {
+    width: 72px; 
+    height: 64px; 
+    margin-right: 10px; 
+}
+
+
+/* EXPERIENCES */
+.experiences {
+    position: relative;
+    color: white;
+    padding-top: 5%;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.title-expe {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+
+.row-expe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-expe {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* .kode {
+    width: 72px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.cube,
+.movie {
+    width: 72px;
+    height: 72px;
+    margin-right: 15px;
+}
+
+.keyboard {
+    width: 72px;
+    height: 50px;
+    margin-right: 15px;
+} */
+
+.experiences p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.expe-skill{
+    margin-bottom: 3%;
+}
+
+
+
+/* PORTOFOLIO */
+.portofolio1 {
+    position: relative;
+    color: black;
+    padding-top: 1px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.title-porto {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5%;
+    padding-bottom: 1%
+}
+
+.row-porto {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.border-porto {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: transparent;
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.border-porto:hover {
+    text-decoration: none;
+    outline: none;
+    transform: scale(1.05);
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.code1 {
+    width: 64px;
+    height: 52px;
+    margin-right: 15px;
+}
+
+.cube1 {
+    width: 64px;
+    height: 64px;
+    margin-right: 15px;
+}
+
+.portofolio1 p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.porto-porto{
+    margin-bottom: 3%;
+}
+
+
+
+
+/* LANGUAGE */
+.language1 {
+    position: relative;
+    color: white;
+    padding-top: 5%;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.title-lang {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+
+.border-lang {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.content-wrapper-lang {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.language1 .judul-bahasa {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.language1 p {
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 0;
+}
+
+.lang-type{
+    margin-bottom: 3%;
+}
+
+
+
+/* CONTACT ME */
+/* .contactme {
+    position: relative;
+    color: black;
+    padding-top: 1px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.title-contact {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5%;
+    padding-bottom: 1%;
+}
+
+.contact-img {
+    border: 7px solid #ffffff;
+}
+
+.contactme p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.row-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.border-contact {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease;
+}
+
+.border-contact:hover {
+    text-decoration: none;
+    outline: none;
+    transform: scale(1.05);
+}
+
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.email,
+.whatsapp,
+.instagram,
+.linkedin,
+.github,
+.line {
+    width: 51px;
+    height: 51px;
+    margin-right: 15px;
+}
+
+.contactme p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact-info {
+    margin-bottom: 3%;
+} */
+
+
+/* CONTACT */
+.contactme {
+    position: relative;
+    color: black;
+    padding-top: 1px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.title-contact {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5%;
+    padding-bottom: 1%;
+}
+
+.contact-img {
+    border: 7px solid #ffffff;
+}
+
+.contactme p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.row-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.border-contact {
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease;
+}
+
+.border-contact:hover {
+    text-decoration: none;
+    outline: none;
+    transform: scale(1.05);
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.email,
+.whatsapp,
+.instagram,
+.linkedin,
+.github,
+.line {
+    width: 51px;
+    height: 51px;
+    margin-right: 15px;
+}
+
+.contactme p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact-info {
+    margin-bottom: 3%;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+
+
+/* FOOTER */
+.footer p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/* MOBILE VERSION */
+@media (max-width: 767px) {
+
+    /* CAROUSEL */
+    #carouselExampleIndicators {
+        height: 50vh; /* Tinggi carousel pada tampilan mobile */
+    }
+
+    /* CSS untuk gambar dalam Carousel pada tampilan mobile */
+    .carousel-item img {
+        height: 50vh;
+    }
+
+
+    /* PORTOFOLIO */
+    .row-porto {
+        flex-direction: column; /* Mengubah tata letak menjadi kolom */
+    }
+
+    .porto-porto {
+        width: 100%; /* Lebar penuh untuk item portofolio pada tampilan mobile */
+        margin-bottom: 3%; /* Spasi antar item */
+    }
+
+
+    
+    /* BANNER */
+    .banner {
+        padding-top: 10%; /* Mengurangi padding top pada tampilan mobile */
+        padding-bottom: 10%; /* Mengurangi padding bottom pada tampilan mobile */
+    }
+
+    .col-md-6 {
+        width: 100%; /* Lebar penuh pada tampilan mobile */
+    }
+
+    .ban-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+    /* ABOUT */
+    .row {
+        flex-direction: column; /* Ubah tata letak menjadi kolom */
+    }
+
+    .about-img {
+        margin-left: auto; /* Atur margin menjadi auto agar gambar berada di tengah */
+        margin-right: auto;
+        margin-bottom: 15px; /* Spasi antara gambar dan teks */
+    }
+
+    .about-name,
+    .about1 p {
+        margin-left: 0; /* Hilangkan margin kiri pada teks */
+        text-align: justify; /* Rata kiri */
+    }
+
+
+    /* EXPERIENCES */
+    .kode {
+        width: 72px;
+        height: 60px;
+        margin-right: 15px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .movie {
+        width: 72px;
+        height: 72px;
+        margin-right: 15px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .cube {
+        width: 72px;
+        height: 72px;
+        margin-right: 15px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    .keyboard {
+        width: 72px;
+        height: 50px;
+        margin-right: 15px;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
+
+    /* PORTOFOLIO */
+    .code1 {
+        width: 72px;
+        height: 60px;
+        margin-right: 15px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+
+
+    /* CONTACT */
+    .title-contact {
+        margin-top: 10%;
+    }
+  
+    .contactme p {
+        font-size: 18px;
+    }
+  
+    .row-contact {
+        flex-direction: column; /* Mengubah susunan menjadi vertikal */
+        align-items: center; /* Memusatkan elemen */
+    }
+  
+    .contact-info {
+        margin-bottom: 5%;
+    }
+  
+    .border-contact {
+        padding: 15px;
+    }
+  
+    .email,
+    .whatsapp,
+    .instagram,
+    .linkedin,
+    .github,
+    .line {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+  
+    .contact-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border: 4px solid #ffffff;
+        margin-bottom: 10%; 
+    }
+
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+
+    /* NAVBAR */
+    .navbar {
+      height: 75px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 30px;
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+    }
+
+    .nav-link::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid transparent;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 23px;
+        margin-bottom: -26px;
+        transform: scaleX(0);
+        transform-origin: center bottom; 
+        transition: transform 0.3s ease;
+    }
+    
+    .nav-link:hover::after {
+        transform: scaleX(1);
+        border-color: #FFFFFF;
+    }
+    
+
+
+    /* EXPERIENCES */
+    .kode {
+        width: 72px;
+        height: 60px;
+        margin-right: 15px;
+    }
+    
+    .cube,
+    .movie {
+        width: 72px;
+        height: 72px;
+        margin-right: 15px;
+    }
+    
+    .keyboard {
+        width: 72px;
+        height: 50px;
+        margin-right: 15px;
+    }
+
+    
+
+
+    /* CONTACT */
+    .title-contact {
+        margin-top: 5%;
+    }
+
+    .contact-info {
+        margin-bottom: 3%;
+    }
+
+    .border-contact {
+        padding: 20px;
+    }
+
+    .contact-img {
+        width: 390px;
+        height: 700px;
+        border: 7px solid #ffffff;
+    }
+
+    .email,
+    .whatsapp,
+    .instagram,
+    .linkedin,
+    .github,
+    .line {
+        width: 51px;
+        height: 51px;
+        margin-right: 15px;
+    }
+
+  }
