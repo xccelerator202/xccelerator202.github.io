@@ -67,7 +67,6 @@ body.navbar-expanded {
     height: auto;
     margin-left: 25%;
     border: 2px solid #ffffff;
-    /* box-shadow: 0 0 30px 2px #ffffff; */
 }
 
 
@@ -86,15 +85,12 @@ body.navbar-expanded {
 
 
 .about-img {
-    /* display: inline-block;
-    margin: 0 auto; */
     position: relative;
     z-index: 1000;
     width: 160px;
     height: auto;
     margin-left: 75%;
     border: 2px solid #000000;
-    /* box-shadow: 0 0 30px 2px #ffffff; */
 }
 
 .about-title {
@@ -125,7 +121,7 @@ h2 {
   }
   
   .progress-bar-container {
-    margin-bottom: 70px; /* Menambahkan margin antar progress bar */
+    margin-bottom: 70px; 
     height: 10px;
   }
 
@@ -140,7 +136,7 @@ h2 {
   }
 
   .flex-column {
-    flex-basis: 48%; /* Lebar masing-masing kolom sekitar 48% dari container */
+    flex-basis: 48%;
   }
 
 
@@ -160,11 +156,6 @@ h2 {
      margin-top: 3%;
     padding-bottom: 1%;
 }
-  
-/* .row-edu {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .border-edu {
     border: 2px solid #D9D9D9;
@@ -190,7 +181,7 @@ h2 {
 .experiences {
     text-align: center;
     font-weight: bolder;
-    margin-top: 5%; /* Sesuaikan jarak atas agar sejajar */
+    margin-top: 5%; 
     padding-bottom: 1%;
 }
 
@@ -224,25 +215,6 @@ h2 {
     display: flex;
     align-items: center;
 }
-
-/* .kode {
-    width: 72px;
-    height: 60px;
-    margin-right: 15px;
-}
-
-.cube,
-.movie {
-    width: 72px;
-    height: 72px;
-    margin-right: 15px;
-}
-
-.keyboard {
-    width: 72px;
-    height: 50px;
-    margin-right: 15px;
-} */
 
 .experiences p {
     font-weight: bold;
@@ -390,85 +362,6 @@ h2 {
 
 
 
-/* CONTACT ME */
-/* .contactme {
-    position: relative;
-    color: black;
-    padding-top: 1px;
-    background-color: #000000;
-    color: #ffffff;
-    padding-bottom: 5%;
-}
-
-.title-contact {
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 5%;
-    padding-bottom: 1%;
-}
-
-.contact-img {
-    border: 7px solid #ffffff;
-}
-
-.contactme p {
-    text-align: center;
-    font-size: 24px;
-    font-weight: lighter;
-}
-
-.row-contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; 
-}
-
-.border-contact {
-    border: 2px solid #D9D9D9;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    height: 100%;
-    margin-bottom: 5%;
-    transition: transform 0.3s ease;
-}
-
-.border-contact:hover {
-    text-decoration: none;
-    outline: none;
-    transform: scale(1.05);
-}
-
-
-.content-wrapper {
-    display: flex;
-    align-items: center;
-}
-
-.email,
-.whatsapp,
-.instagram,
-.linkedin,
-.github,
-.line {
-    width: 51px;
-    height: 51px;
-    margin-right: 15px;
-}
-
-.contactme p {
-    font-size: 20px;
-    margin: 0;
-}
-
-.contact-info {
-    margin-bottom: 3%;
-} */
-
 
 /* CONTACT */
 .contactme {
@@ -551,8 +444,19 @@ h2 {
 
 
 /* FOOTER */
+.footer {
+    background-color: #ffffff;
+    padding: 1.5rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer p {
-    font-size: 18px;
+    margin: 0;
+    color: #333;
+    font-size: 14px; 
 }
 
 
@@ -566,7 +470,7 @@ h2 {
 
     /* CAROUSEL */
     #carouselExampleIndicators {
-        height: 50vh; /* Tinggi carousel pada tampilan mobile */
+        height: 50vh; 
     }
 
     /* CSS untuk gambar dalam Carousel pada tampilan mobile */
@@ -577,29 +481,29 @@ h2 {
 
     /* PORTOFOLIO */
     .row-porto {
-        flex-direction: column; /* Mengubah tata letak menjadi kolom */
+        flex-direction: column; 
     }
 
     .porto-porto {
-        width: 100%; /* Lebar penuh untuk item portofolio pada tampilan mobile */
-        margin-bottom: 3%; /* Spasi antar item */
+        width: 100%; 
+        margin-bottom: 3%; 
     }
 
 
     
     /* BANNER */
     .ban-img {
-        display: block; /* Pastikan gambar bersifat blok agar bisa dipusatkan */
-        margin: 20px auto 0 auto; /* Atas: 20px, kiri-kanan: auto, bawah: 0 */
-        width: 250px; /* Perkecil gambar */
+        display: block; 
+        margin: 20px auto 0 auto; 
+        width: 250px; /
     }
 
     .banner {
-        text-align: center; /* Pusatkan teks */
+        text-align: center; 
     }
 
     .title {
-        font-size: 20px; /* Sesuaikan ukuran font */
+        font-size: 20px;
         margin-top: 20px;
     }
 
@@ -612,37 +516,37 @@ h2 {
 
     /* ABOUT */
     .row {
-        flex-direction: column; /* Ubah tata letak menjadi kolom */
+        flex-direction: column;
     }
 
     .about-img {
-        margin-left: auto; /* Atur margin menjadi auto agar gambar berada di tengah */
+        margin-left: auto; 
         margin-right: auto;
-        margin-bottom: 15px; /* Spasi antara gambar dan teks */
+        margin-bottom: 15px; 
     }
 
     .about-name {
-        text-align: left; /* Pastikan judul tetap rata kiri */
+        text-align: left; 
         margin-left: 0;
-        font-size: 20px; /* Perkecil ukuran font */
+        font-size: 20px;
         font-weight: bold;
     }
     
     .about1 p {
-        text-align: justify; /* Tetap justify untuk paragraf */
+        text-align: justify; 
         margin-left: 0;
     }
 
     /* EDUCATION */
     .title-edu {
-        margin-top: 10%; /* Tambah jarak agar lebih di tengah */
+        margin-top: 10%; 
     }
     
 
 
     /* EXPERIENCES */
     .title-expe {
-        margin-top: 12%; /* Perkecil ukuran font agar lebih rapi */
+        margin-top: 12%; 
     }
     
     .kode {
@@ -837,7 +741,12 @@ h2 {
         margin-right: 15px;
     }
 
+    .footer p {
+        font-size: 16px;
+    }
   }
+
+
 
 
  /* Responsif untuk Tablet (Portrait) */
@@ -886,13 +795,13 @@ h2 {
 
 .about-img {
     width: 180px;
-    flex-shrink: 0; /* Mencegah gambar mengecil saat layar mengecil */
-    margin-left: 20px; /* Tambahkan sedikit margin agar tidak terlalu menempel */
+    flex-shrink: 0;
+    margin-left: 20px;
 }
 
 .about-text {
-    max-width: 55%; /* Sedikit dikurangi agar gambar tidak terganggu */
-    flex-grow: 1; /* Agar teks tetap proporsional */
+    max-width: 55%;
+    flex-grow: 1;
 }
 
 
@@ -902,16 +811,16 @@ h2 {
     }
 
     /* EXPERIENCES */
-    .experiences .text-content p { /* Menargetkan hanya p dalam .experiences */
+    .experiences .text-content p {
         font-size: 16px;
         margin: 0;
         font-weight: bold;
-        white-space: nowrap;  /* Menjaga teks dalam satu baris */
+        white-space: nowrap; 
     }
 
     /* Menyesuaikan ukuran font untuk teks dalam .skill di bagian experiences */
     .experiences .skill p {
-        font-size: 16px; /* Sesuaikan ukuran font dengan yang lainnya */
+        font-size: 16px; 
         font-weight: bold;
         margin: 0;
         white-space: nowrap;
@@ -1003,8 +912,8 @@ h2 {
 }
 
 .contact-img {
-    width: 300px;   /* Sedikit lebih kecil lagi */
-    height: 500px;  /* Sedikit lebih kecil lagi */
+    width: 300px;  
+    height: 500px;  
     border: 7px solid #ffffff;
     margin-bottom: 20px;
 }
@@ -1018,13 +927,13 @@ h2 {
 .row-contact {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Memastikan sejajar secara vertikal */
+    align-items: center; 
 }
 
 .border-contact {
     border: 2px solid #D9D9D9;
     border-radius: 20px;
-    padding: 15px;  /* Sedikit dikurangi padding agar lebih banyak ruang */
+    padding: 15px;  
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -1055,23 +964,23 @@ h2 {
 .linkedin,
 .github,
 .line {
-    width: 35px;  /* Lebih kecil */
-    height: 35px; /* Lebih kecil */
-    margin-right: 8px;  /* Jarak dikurangi */
+    width: 35px;  
+    height: 35px; 
+    margin-right: 8px;  
 }
 
 /* MEMPERKECIL TEKS AGAR TIDAK KELUAR */
 .text-content {
-    font-size: 13px;  /* Ukuran teks lebih kecil */
+    font-size: 13px; 
     margin: 0;
-    white-space: nowrap;  /* Menghindari teks turun ke baris baru */
-    overflow: hidden;  /* Mencegah teks keluar dari batas */
-    text-overflow: ellipsis;  /* Tambahkan elipsis jika terlalu panjang */
-    max-width: 100%;  /* Pastikan tidak melebihi container */
+    white-space: nowrap;  
+    overflow: hidden; 
+    text-overflow: ellipsis;  
+    max-width: 100%; 
 }
 
 .contactme p {
-    font-size: 18px;  /* Ukuran dikurangi */
+    font-size: 18px;
     margin: 0;
 }
 
@@ -1080,7 +989,7 @@ h2 {
 }
 
 .footer p {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 
