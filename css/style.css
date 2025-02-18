@@ -78,36 +78,48 @@ body.navbar-expanded {
     color: white;
     padding-top: 5%;
     background-color: #FFFFFF;
-    color: #ffffff;
+    color: #333;  /* Ubah teks menjadi gelap agar lebih kontras dengan latar belakang putih */
     padding-bottom: 5%;
     text-align: center;
+    padding-left: 5%; /* Menambahkan padding kiri */
+    padding-right: 5%; /* Menambahkan padding kanan */
 }
 
+.about1 {
+    max-width: 1200px; /* Menyesuaikan lebar agar tidak melebihi batas */
+    margin: 0 auto; /* Agar konten terpusat */
+}
 
 .about-img {
     position: relative;
     z-index: 1000;
     width: 160px;
-    height: auto;
-    margin-left: 75%;
+    height: 160px;  /* Menyesuaikan ukuran gambar supaya tidak terlalu besar */
     border: 2px solid #000000;
+    margin-left: 30px; /* Mengubah margin kiri agar gambar lebih ke kanan */
+    margin-bottom: 20px; /* Memberikan jarak bawah */
 }
 
 .about-title {
     margin-bottom: 5%;
 }
 
-.about-name{
-    text-align: justify;
-    margin-left: 15%;
+.about-name {
+    text-align: left;
+    margin-left: 0;
     font-weight: bold;
-    
+    font-size: 24px;  /* Ukuran font lebih besar */
 }
 
 .about1 p {
-    text-align: justify;
-    margin-left: 15%;
+    text-align: justify;  /* Membuat teks rata kiri dan kanan */
+    margin-left: 0;       /* Menghapus margin kiri */
+    font-size: 16px;      /* Menyesuaikan ukuran font */
+    line-height: 1.5;     /* Memberikan jarak antar baris agar lebih mudah dibaca */
+    display: block;       /* Pastikan elemen paragraf mengalir dengan baik */
 }
+
+
 
 
 /* CSS Bar Skill */
@@ -528,7 +540,7 @@ h2 {
     .about-name {
         text-align: left; 
         margin-left: 0;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
     }
     
@@ -612,8 +624,8 @@ h2 {
     }
   
     .row-contact {
-        flex-direction: column; /* Mengubah susunan menjadi vertikal */
-        align-items: center; /* Memusatkan elemen */
+        flex-direction: column; 
+        align-items: center; 
     }
   
     .contact-info {
@@ -782,27 +794,48 @@ h2 {
     }
 
     /* ABOUT */
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        padding: 0 10%; 
+    }
 
-.about-title {
-    font-size: 1.6rem;
-    font-weight: bolder;
-}
+    .about-title {
+        font-size: 1.6rem;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
 
-.about-img {
-    width: 180px;
-    flex-shrink: 0;
-    margin-left: 20px;
-}
+    .about-img {
+        width: 150px;
+        height: 150px; 
+        flex-shrink: 0;
+        margin: 0 0 20px 0; 
+    }
 
-.about-text {
-    max-width: 55%;
-    flex-grow: 1;
-}
+    .about-name {
+        font-size: 1.2rem;
+        text-align: left;
+        margin-left: 0;
+        font-weight: bold;
+        margin-bottom: 15px; 
+    }
+
+    .about1 p {
+        font-size: 1rem; 
+        line-height: 1.6; 
+        text-align: justify;
+        padding-right: 0; 
+        margin-left: 0; 
+    }
+
+    /* Menyesuaikan ukuran kolom */
+    .about-text {
+        max-width: 100%;  
+        flex-grow: 1;
+    }
 
 
     /* EDUCATION */
@@ -890,111 +923,105 @@ h2 {
     }
 
     /* CONTACT */
-.contactme {
-    position: relative;
-    color: black;
-    padding-top: 1px;
-    background-color: #000000;
-    color: #ffffff;
-    padding-bottom: 5%;
-}
+    .contactme {
+        position: relative;
+        color: black;
+        padding-top: 1px;
+        background-color: #000000;
+        color: #ffffff;
+        padding-bottom: 5%;
+    }
 
-.title-contact {
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 5%;
-    padding-bottom: 1%;
-}
+    .title-contact {
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 5%;
+        padding-bottom: 1%;
+    }
 
-/* PERKECIL GAMBAR SUPAYA SEJAJAR DENGAN BORDER */
-.title-contact {
-    font-size: 1.6rem;
-}
+    /* PERKECIL GAMBAR SUPAYA SEJAJAR DENGAN BORDER */
+    .title-contact {
+        font-size: 1.6rem;
+    }
 
-.contact-img {
-    width: 300px;  
-    height: 500px;  
-    border: 7px solid #ffffff;
-    margin-bottom: 20px;
-}
+    .contact-img {
+        width: 300px;  
+        height: 500px;  
+        border: 7px solid #ffffff;
+        margin-bottom: 20px;
+    }
 
-.contactme p {
-    text-align: center;
-    font-size: 24px;
-    font-weight: lighter;
-}
+    .contactme p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: lighter;
+    }
 
-.row-contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-}
+    .row-contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
 
-.border-contact {
-    border: 2px solid #D9D9D9;
-    border-radius: 20px;
-    padding: 15px;  
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    height: 100%;
-    margin-bottom: 5%;
-    transition: transform 0.3s ease;
-    max-width: 100%;
-}
+    .border-contact {
+        border: 2px solid #D9D9D9;
+        border-radius: 20px;
+        padding: 15px;  
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        margin-bottom: 5%;
+        transition: transform 0.3s ease;
+        max-width: 100%;
+    }
 
-.border-contact:hover {
-    text-decoration: none;
-    outline: none;
-    transform: scale(1.05);
-}
+    .border-contact:hover {
+        text-decoration: none;
+        outline: none;
+        transform: scale(1.05);
+    }
 
-.content-wrapper {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-}
+    .content-wrapper {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+    }
 
-/* MEMPERKECIL UKURAN IKON AGAR PAS */
-.email,
-.whatsapp,
-.instagram,
-.linkedin,
-.github,
-.line {
-    width: 35px;  
-    height: 35px; 
-    margin-right: 8px;  
-}
+    /* MEMPERKECIL UKURAN IKON AGAR PAS */
+    .email,
+    .whatsapp,
+    .instagram,
+    .linkedin,
+    .github,
+    .line {
+        width: 35px;  
+        height: 35px; 
+        margin-right: 8px;  
+    }
 
-/* MEMPERKECIL TEKS AGAR TIDAK KELUAR */
-.text-content {
-    font-size: 13px; 
-    margin: 0;
-    white-space: nowrap;  
-    overflow: hidden; 
-    text-overflow: ellipsis;  
-    max-width: 100%; 
-}
+    /* MEMPERKECIL TEKS AGAR TIDAK KELUAR */
+    .text-content {
+        font-size: 13px; 
+        margin: 0;
+        white-space: nowrap;  
+        overflow: hidden; 
+        text-overflow: ellipsis;  
+        max-width: 100%; 
+    }
 
-.contactme p {
-    font-size: 18px;
-    margin: 0;
-}
+    .contactme p {
+        font-size: 18px;
+        margin: 0;
+    }
 
-.contact-info {
-    margin-bottom: 3%;
-}
+    .contact-info {
+        margin-bottom: 3%;
+    }
 
-.footer p {
-    font-size: 12px;
-}
-
-
-
-
-
-
+    .footer p {
+        font-size: 12px;
+    }
 }
